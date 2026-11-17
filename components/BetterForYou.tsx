@@ -32,7 +32,7 @@ export function BetterForYou() {
   return (
     <section
       id="benefits"
-      className="relative w-full max-w-[1440px] mx-auto px-6 md:px-10 lg:px-14 py-12 md:py-20 overflow-hidden rounded-[32px] border-3 border-[var(--ink)] shadow-sm"
+      className="relative w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-14 py-10 md:py-20 overflow-hidden rounded-[28px] md:rounded-[32px] border-3 border-[var(--ink)] shadow-sm"
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -49,10 +49,15 @@ export function BetterForYou() {
 
       <div className="relative z-10">
         {/* Mega Heading spanning full width */}
-        <div className="w-full overflow-hidden select-none mb-12 md:mb-16">
-          <div className="mega-headline text-[var(--yellow)] stroke-[var(--ink)] flex items-center transition-transform duration-500 hover:scale-[1.01]">
-            <span className="drop-shadow-[4px_4px_0px_var(--ink)] -mr-4">BETTER FOR YOU ✦</span>
-          </div>
+        <div className="w-full select-none mb-8 md:mb-16">
+          <h2 className="mega-headline text-[var(--yellow)] stroke-[var(--ink)] flex items-center justify-between sm:justify-start gap-2 transition-transform duration-500 hover:scale-[1.01] m-0">
+            <span className="drop-shadow-[3px_3px_0px_var(--ink)] md:drop-shadow-[4px_4px_0px_var(--ink)]">
+              BETTER FOR YOU
+            </span>
+            <span className="drop-shadow-[3px_3px_0px_var(--ink)] md:drop-shadow-[4px_4px_0px_var(--ink)]">
+              ✦
+            </span>
+          </h2>
         </div>
 
         {/* 3 Equal Columns */}

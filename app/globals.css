@@ -78,9 +78,9 @@ body {
 /* Mega heading for "BETTER FOR YOU": fills container (~140-200px) */
 .mega-headline {
   font-family: var(--font-display);
-  font-size: clamp(4rem, 11vw, 12.5rem);
-  line-height: 0.88;
-  letter-spacing: -0.03em;
+  font-size: clamp(1.75rem, 7.2vw, 8.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   white-space: nowrap;
 }
